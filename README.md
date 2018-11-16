@@ -1,4 +1,4 @@
-# js-media-queries-mixin
+# vue-media-queries-mixin
 
 ## useful mixin for reactive components
 
