@@ -55,10 +55,10 @@ export const isScreenLg = {
 
 export const mediaQueriesAll = {
     data () {
-        const screenXs = window.matchMedia('screen and (min-width: ' + this.globals.layout.xs + 'px)');
-        const screenSm = window.matchMedia('screen and (min-width: ' + this.globals.layout.sm + 'px)');
-        const screenMd = window.matchMedia('screen and (min-width: ' + this.globals.layout.md + 'px)');
-        const screenLg = window.matchMedia('screen and (min-width: ' + this.globals.layout.lg + 'px)');
+        const screenXs = window.matchMedia('screen and (min-width: 480px)');
+        const screenSm = window.matchMedia('screen and (min-width: 768px)');
+        const screenMd = window.matchMedia('screen and (min-width: 992px)');
+        const screenLg = window.matchMedia('screen and (min-width: 1200px)');
 
         screenXs.onchange = ({matches}) => {
             this.isScreenXs = matches;
